@@ -1,8 +1,10 @@
 adventure-land-test-helpers
 ===========================
 
-![![npm version](https://img.shields.io/npm/v/adventure-land-test-helpers.svg)](https://www.npmjs.com/package/adventure-land-test-helpers)
-![![npm downloads](https://img.shields.io/npm/dt/adventure-land-test-helpers.svg)](https://www.npmjs.com/package/adventure-land-test-helpers)
+<p>
+    <a href="https://www.npmjs.com/package/adventure-land-test-helpers"><img src="https://img.shields.io/npm/v/adventure-land-test-helpers.svg"></a>
+    <a href="https://www.npmjs.com/package/adventure-land-test-helpers"><img src="https://img.shields.io/npm/dt/adventure-land-test-helpers.svg"></a>
+</p>
 
 [Adventure Land MMORPG](http://adventure.land/) test stubs and mock data for unit testing player
 scripts.
