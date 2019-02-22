@@ -7,7 +7,8 @@ adventure-land-test-helpers
 </p>
 
 [Adventure Land MMORPG](http://adventure.land/) test stubs and mock data for unit testing player
-scripts.
+scripts. For a linting tool, see the
+[ESLint plugin](https://github.com/davidtimmons/eslint-plugin-adventure-land).
 
 ## Installation
 
