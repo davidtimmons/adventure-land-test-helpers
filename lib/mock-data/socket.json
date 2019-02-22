@@ -1,0 +1,129 @@
+{
+    "io": {
+        "nsps": {},
+        "subs": [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        "opts": {
+            "transports": [
+                "websocket"
+            ],
+            "path": "/socket.io",
+            "hostname": "149.56.107.85",
+            "secure": false,
+            "port": "2096"
+        },
+        "backoff": {
+            "ms": 1000,
+            "max": 5000,
+            "factor": 2,
+            "jitter": 0.5,
+            "attempts": 0
+        },
+        "readyState": "open",
+        "uri": "http://149.56.107.85:2096",
+        "connecting": [
+            null
+        ],
+        "lastPing": "2019-02-16T03:23:31.019Z",
+        "encoding": false,
+        "packetBuffer": [],
+        "encoder": {},
+        "decoder": {
+            "reconstructor": null
+        },
+        "autoConnect": true,
+        "engine": {
+            "secure": false,
+            "agent": false,
+            "hostname": "149.56.107.85",
+            "port": "2096",
+            "query": {},
+            "upgrade": true,
+            "path": "/socket.io/",
+            "forceJSONP": false,
+            "jsonp": true,
+            "forceBase64": false,
+            "enablesXDR": false,
+            "timestampParam": "t",
+            "transportOptions": {},
+            "readyState": "open",
+            "writeBuffer": [
+                {
+                    "type": "message",
+                    "data": "2[\"code\",{\"run\":1}]",
+                    "options": {
+                        "compress": true
+                    }
+                }
+            ],
+            "prevBufferLen": 1,
+            "policyPort": 843,
+            "rememberUpgrade": false,
+            "binaryType": null,
+            "perMessageDeflate": {
+                "threshold": 1024
+            },
+            "pfx": null,
+            "key": null,
+            "passphrase": null,
+            "cert": null,
+            "ca": null,
+            "ciphers": null,
+            "rejectUnauthorized": true,
+            "forceNode": false,
+            "id": "ABCd12e3fG-HIjKLMNOP",
+            "upgrades": [],
+            "pingInterval": 4000,
+            "pingTimeout": 12000,
+            "pingIntervalTimer": 16539,
+            "pingTimeoutTimer": 16634,
+            "transport": {
+                "usingBrowserWebSocket": true,
+                "path": "/socket.io/",
+                "hostname": "149.56.107.85",
+                "port": "2096",
+                "secure": false,
+                "query": {
+                    "EIO": 3,
+                    "transport": "websocket",
+                    "sid": "ABCd12e3fG-HIjKLMNOP"
+                },
+                "timestampParam": "t",
+                "readyState": "open",
+                "agent": false,
+                "enablesXDR": false,
+                "pfx": null,
+                "key": null,
+                "passphrase": null,
+                "cert": null,
+                "ca": null,
+                "ciphers": null,
+                "rejectUnauthorized": true,
+                "forceNode": false,
+                "ws": {},
+                "writable": false
+            }
+        },
+        "skipReconnect": false
+    },
+    "nsp": "/",
+    "ids": 0,
+    "acks": {},
+    "receiveBuffer": [],
+    "sendBuffer": [],
+    "connected": true,
+    "disconnected": false,
+    "flags": {},
+    "subs": [
+        {},
+        {},
+        {}
+    ],
+    "id": "ABCd12e3fG-HIjKLMNOP"
+}

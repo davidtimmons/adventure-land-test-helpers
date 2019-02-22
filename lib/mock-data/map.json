@@ -1,0 +1,601 @@
+{
+    "on_death": 5,
+    "npcs": [
+        {
+            "position": [ -207, -220 ],
+            "id": "newupgrade"
+        },
+        {
+            "position": [ -25, -478 ],
+            "name": "Exchanger",
+            "id": "exchange"
+        },
+        {
+            "position": [ -464, -96 ],
+            "name": "Come Scroll Away",
+            "id": "scrolls"
+        },
+        {
+            "position": [ -341, 168 ],
+            "id": "lotterylady"
+        },
+        {
+            "position": [ -1572, 552, 1 ],
+            "id": "fisherman"
+        },
+        {
+            "position": [ -35, -162 ],
+            "id": "fancypots"
+        },
+        {
+            "position": [ -89, -165 ],
+            "id": "basics"
+        },
+        {
+            "position": [ 192, -564 ],
+            "id": "premium"
+        },
+        {
+            "position": [ -83, -441 ],
+            "id": "transporter"
+        },
+        {
+            "position": [ -193, 680 ],
+            "id": "standmerchant"
+        },
+        {
+            "position": [ -361, -832 ],
+            "name": "Zen Girl",
+            "id": "appearance"
+        },
+        {
+            "positions": [
+                [ 232, 388 ],
+                [ 325, 499, 1 ]
+            ],
+            "id": "pvp"
+        },
+        {
+            "position": [ 1588, -534 ],
+            "id": "guard"
+        },
+        {
+            "position": [ 1610, -534 ],
+            "id": "guard"
+        },
+        {
+            "position": [ 92, 670 ],
+            "id": "craftsman"
+        },
+        {
+            "position": [ -776, 1256 ],
+            "id": "pete"
+        },
+        {
+            "position": [ 0, 0 ],
+            "id": "citizen0"
+        },
+        {
+            "position": [ 0, 0 ],
+            "id": "citizen2"
+        },
+        {
+            "position": [ 0, 0 ],
+            "id": "citizen3"
+        },
+        {
+            "position": [ 0, 0 ],
+            "id": "citizen4"
+        },
+        {
+            "position": [ 274, -554 ],
+            "id": "antip2w"
+        },
+        {
+            "position": [ 225, -105 ],
+            "id": "funtokens"
+        },
+        {
+            "position": [ 74, -34 ],
+            "boundary": [ -100, -100, 100, 100 ],
+            "id": "beans"
+        },
+        {
+            "position": [ 106, -47 ],
+            "id": "secondhands"
+        },
+        {
+            "position": [ 159, 403 ],
+            "id": "pvptokens"
+        },
+        {
+            "position": [ 126, -413 ],
+            "id": "dailytask"
+        }
+    ],
+    "key": "jayson_ALMap2_v2",
+    "animatables": {
+        "the_door": {
+            "y": -672,
+            "x": 888,
+            "position": "door0"
+        }
+    },
+    "traps": [
+        [ -472, 286, "spikes" ]
+    ],
+    "name": "Town",
+    "drop_norm": 1000,
+    "quirks": [
+        [ -236, -189, 24, 24, "upgrade" ],
+        [ -179, -189, 24, 24, "compound" ],
+        [ 350, 424, 30, 24, "list_pvp" ],
+        [ -200, 15, 24, 42, "log", "A relic from an old era" ],
+        [ 200, 15, 24, 42, "log", "A relic from an old era" ],
+        [ 1689, -494, 20, 16, "note", "The Dark Forest. A curious place." ],
+        [ 681, 624, 20, 16, "sign", "The Mansion" ],
+        [ 65, 544, 20, 16, "sign", "Welcome to The New Town!" ],
+        [ -150, 154, 20, 16, "sign", "Town Square" ],
+        [ -365, 144, 20, 16, "sign", "Tavern" ]
+    ],
+    "doors": [
+        [ -965, -176, 24, 30, "woffice", 0, 1 ],
+        [ 536, 1665, 64, 32, "tunnel", 0, 2 ],
+        [ 168, -149, 32, 40, "bank", 0, 3 ],
+        [ 160, 1370, 24, 32, "cave", 0, 4 ],
+        [ 232, 384, 24, 30, "arena", 0, 6 ],
+        [ -472, 131, 24, 30, "tavern", 0, 8 ],
+        [ 616, 610, 32, 40, "mansion", 0, 10 ],
+        [ 1936, -23, 24, 24, "level1", 1, 11 ]
+    ],
+    "spawns": [
+        [ 0, 0 ],
+        [ -968, -163 ],
+        [ 535, 1677 ],
+        [ 168, -134 ],
+        [ 160, 1381 ],
+        [ -87, 673 ],
+        [ 232, 397 ],
+        [ 294, 498 ],
+        [ -472, 149 ],
+        [ -85, -389, 3 ],
+        [ 616, 621 ],
+        [ 1937, -12 ],
+        [ -1104, -924 ],
+        [ -551, -375 ]
+    ],
+    "ref": {
+        "u_mid": [ -235, -202 ],
+        "c_mid": [ -179, -202 ],
+        "newupgrade": {
+            "map": "main",
+            "in": "main",
+            "x": -207,
+            "y": -220,
+            "id": "newupgrade"
+        },
+        "exchange": {
+            "map": "main",
+            "in": "main",
+            "x": -25,
+            "y": -478,
+            "id": "exchange"
+        },
+        "scrolls": {
+            "map": "main",
+            "in": "main",
+            "x": -464,
+            "y": -96,
+            "id": "scrolls"
+        },
+        "lotterylady": {
+            "map": "main",
+            "in": "main",
+            "x": -341,
+            "y": 168,
+            "id": "lotterylady"
+        },
+        "fisherman": {
+            "map": "main",
+            "in": "main",
+            "x": -1572,
+            "y": 552,
+            "id": "fisherman"
+        },
+        "fancypots": {
+            "map": "main",
+            "in": "main",
+            "x": -35,
+            "y": -162,
+            "id": "fancypots"
+        },
+        "basics": {
+            "map": "main",
+            "in": "main",
+            "x": -89,
+            "y": -165,
+            "id": "basics"
+        },
+        "premium": {
+            "map": "main",
+            "in": "main",
+            "x": 192,
+            "y": -564,
+            "id": "premium"
+        },
+        "transporter": {
+            "map": "main",
+            "in": "main",
+            "x": -83,
+            "y": -441,
+            "id": "transporter"
+        },
+        "standmerchant": {
+            "map": "main",
+            "in": "main",
+            "x": -193,
+            "y": 680,
+            "id": "standmerchant"
+        },
+        "appearance": {
+            "map": "main",
+            "in": "main",
+            "x": -361,
+            "y": -832,
+            "id": "appearance"
+        },
+        "guard": {
+            "map": "main",
+            "in": "main",
+            "x": 1610,
+            "y": -534,
+            "id": "guard"
+        },
+        "craftsman": {
+            "map": "main",
+            "in": "main",
+            "x": 92,
+            "y": 670,
+            "id": "craftsman"
+        },
+        "pete": {
+            "map": "main",
+            "in": "main",
+            "x": -776,
+            "y": 1256,
+            "id": "pete"
+        },
+        "citizen0": {
+            "map": "main",
+            "in": "main",
+            "x": 0,
+            "y": 0,
+            "id": "citizen0"
+        },
+        "citizen2": {
+            "map": "main",
+            "in": "main",
+            "x": 0,
+            "y": 0,
+            "id": "citizen2"
+        },
+        "citizen3": {
+            "map": "main",
+            "in": "main",
+            "x": 0,
+            "y": 0,
+            "id": "citizen3"
+        },
+        "citizen4": {
+            "map": "main",
+            "in": "main",
+            "x": 0,
+            "y": 0,
+            "id": "citizen4"
+        },
+        "antip2w": {
+            "map": "main",
+            "in": "main",
+            "x": 274,
+            "y": -554,
+            "id": "antip2w"
+        },
+        "funtokens": {
+            "map": "main",
+            "in": "main",
+            "x": 225,
+            "y": -105,
+            "id": "funtokens"
+        },
+        "beans": {
+            "map": "main",
+            "in": "main",
+            "x": 74,
+            "y": -34,
+            "id": "beans"
+        },
+        "secondhands": {
+            "map": "main",
+            "in": "main",
+            "x": 106,
+            "y": -47,
+            "id": "secondhands"
+        },
+        "pvptokens": {
+            "map": "main",
+            "in": "main",
+            "x": 159,
+            "y": 403,
+            "id": "pvptokens"
+        },
+        "dailytask": {
+            "map": "main",
+            "in": "main",
+            "x": 126,
+            "y": -413,
+            "id": "dailytask"
+        }
+    },
+    "monsters": [
+        {
+            "count": 8,
+            "boundary": [ -1353, -254, -1052, 122 ],
+            "type": "crab",
+            "grow": true
+        },
+        {
+            "count": 6,
+            "boundary": [ -1353, 126, -998, 718 ],
+            "type": "squig",
+            "grow": true
+        },
+        {
+            "count": 2,
+            "boundary": [ -1353, 126, -998, 718 ],
+            "type": "squigtoad"
+        },
+        {
+            "count": 6,
+            "boundary": [ -1353, 720, -896, 1516 ],
+            "type": "tortoise"
+        },
+        {
+            "count": 2,
+            "boundary": [ -1353, 720, -896, 1516 ],
+            "type": "frog"
+        },
+        {
+            "count": 5,
+            "boundary": [ -1256, 1520, -712, 2004 ],
+            "type": "crabx"
+        },
+        {
+            "count": 1,
+            "boundary": [ -571, 323, -571, 323 ],
+            "type": "target"
+        },
+        {
+            "count": 1,
+            "boundary": [ -290, 280, -290, 280 ],
+            "type": "target_a500"
+        },
+        {
+            "count": 1,
+            "boundary": [ -270, 280, -270, 280 ],
+            "type": "target_a750"
+        },
+        {
+            "count": 1,
+            "boundary": [ -250, 280, -250, 280 ],
+            "type": "target_r500"
+        },
+        {
+            "count": 1,
+            "boundary": [ -230, 280, -230, 280 ],
+            "type": "target_r750"
+        },
+        {
+            "count": 1,
+            "boundary": [ -210, 280, -210, 280 ],
+            "type": "target_ar900"
+        },
+        {
+            "count": 1,
+            "boundary": [ -150, 400, -150, 400 ],
+            "type": "target_ar500red"
+        },
+        {
+            "count": 9,
+            "boundary": [ -282, 702, 218, 872 ],
+            "type": "goo",
+            "grow": true
+        },
+        {
+            "count": 4,
+            "boundary": [ 424, 1014, 668, 1104 ],
+            "type": "bee",
+            "grow": true
+        },
+        {
+            "count": 3,
+            "boundary": [ 418, 994, 570, 1208 ],
+            "type": "bee",
+            "grow": true
+        },
+        {
+            "count": 5,
+            "boundary": [ 52, 1426, 252, 1548 ],
+            "type": "bee",
+            "grow": true
+        },
+        {
+            "count": 3,
+            "boundary": [ 448, 694, 592, 812 ],
+            "type": "bee",
+            "grow": true
+        },
+        {
+            "count": 2,
+            "boundary": [ 678, 676, 796, 764 ],
+            "type": "bee",
+            "grow": true
+        },
+        {
+            "count": 5,
+            "boundary": [ -262, 1198, 20, 1522 ],
+            "type": "poisio",
+            "grow": true
+        },
+        {
+            "count": 6,
+            "boundary": [ 696, 1498, 906, 1922 ],
+            "type": "croc",
+            "grow": true
+        },
+        {
+            "count": 6,
+            "boundary": [ 376, 1696, 676, 1996 ],
+            "type": "armadillo",
+            "grow": true
+        },
+        {
+            "count": 6,
+            "boundary": [ -254, 1812, 90, 1990 ],
+            "type": "snake",
+            "grow": true
+        },
+        {
+            "count": 5,
+            "boundary": [ 1100, 160, 1586, 336 ],
+            "type": "bigbird"
+        },
+        {
+            "count": 7,
+            "boundary": [ 700, -282, 1196, -6 ],
+            "type": "spider",
+            "grow": true
+        },
+        {
+            "count": 6,
+            "boundary": [ 1485, -390, 1670, 54 ],
+            "type": "scorpion",
+            "grow": true
+        },
+        {
+            "boundaries": [
+                [ "main", 708, -300, 1668, -86 ],
+                [ "main", 378, 1686, 904, 1920 ],
+                [ "main", -1358, -118, -1010, 1680 ],
+                [ "halloween", -166, 453, 182, 808 ],
+                [ "cave", -375, -1287, 14, -1041 ],
+                [ "tunnel", -210, -1291, 238, -853 ]
+            ],
+            "count": 1,
+            "type": "phoenix",
+            "stype": "randomrespawn"
+        },
+        {
+            "count": 1,
+            "boundary": [ -460, -908, -260, -710 ],
+            "type": "greenfairy"
+        },
+        {
+            "count": 1,
+            "boundary": [ -460, -908, -260, -710 ],
+            "type": "redfairy"
+        },
+        {
+            "count": 1,
+            "boundary": [ -460, -908, -260, -710 ],
+            "type": "bluefairy"
+        },
+        {
+            "count": 1,
+            "boundary": [ -766, 1072, -643, 1210 ],
+            "type": "puppy1"
+        },
+        {
+            "count": 1,
+            "boundary": [ -766, 1072, -643, 1210 ],
+            "type": "puppy2"
+        },
+        {
+            "count": 1,
+            "boundary": [ -766, 1072, -643, 1210 ],
+            "type": "puppy3"
+        },
+        {
+            "count": 1,
+            "boundary": [ -766, 1072, -643, 1210 ],
+            "type": "puppy4"
+        },
+        {
+            "count": 1,
+            "boundary": [ -766, 1072, -643, 1210 ],
+            "type": "kitty1"
+        },
+        {
+            "count": 1,
+            "boundary": [ -766, 1072, -643, 1210 ],
+            "type": "kitty2"
+        },
+        {
+            "count": 1,
+            "boundary": [ -766, 1072, -643, 1210 ],
+            "type": "kitty3"
+        },
+        {
+            "count": 1,
+            "boundary": [ -766, 1072, -643, 1210 ],
+            "type": "kitty4"
+        },
+        {
+            "count": 1,
+            "boundary": [ -585, 305, -146, 547 ],
+            "type": "porcupine"
+        },
+        {
+            "count": 2,
+            "boundary": [ -118, -317, -5, -247 ],
+            "type": "hen"
+        },
+        {
+            "count": 1,
+            "boundary": [ -118, -317, -5, -247 ],
+            "type": "rooster"
+        }
+    ],
+    "items": {
+        "scroll0": [ null ],
+        "cscroll0": [ null ],
+        "strscroll": [ null ],
+        "intscroll": [ null ],
+        "dexscroll": [ null ],
+        "scroll1": [ null ],
+        "cscroll1": [ null ],
+        "scroll2": [ null ],
+        "cscroll2": [ null ],
+        "hpot0": [ null ],
+        "mpot0": [ null ],
+        "hpot1": [ null ],
+        "mpot1": [ null ],
+        "helmet": [ null ],
+        "shoes": [ null ],
+        "gloves": [ null ],
+        "pants": [ null ],
+        "coat": [ null ],
+        "blade": [ null ],
+        "claw": [ null ],
+        "staff": [ null ],
+        "bow": [ null ],
+        "wshield": [ null ],
+        "xpbooster": [ null ],
+        "goldbooster": [ null ],
+        "luckbooster": [ null ],
+        "xptome": [ null ],
+        "offering": [ null ],
+        "qubics": [ null ],
+        "stand0": [ null ]
+    },
+    "merchants": [ null, null, null, null, null, null ]
+}

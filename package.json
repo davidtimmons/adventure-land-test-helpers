@@ -1,0 +1,36 @@
+{
+  "name": "adventure-land-test-helpers",
+  "version": "1.0.0",
+  "description": "Adventure Land MMORPG test stubs and mock data for unit testing player scripts.",
+  "keywords": [
+    "adventure land mmorpg",
+    "adventure land",
+    "test helpers",
+    "helpers",
+    "unit testing",
+    "testing",
+    "stubs",
+    "mocks",
+    "mock data",
+    "global",
+    "global scope"
+  ],
+  "author": "David Timmons",
+  "license": "MIT",
+  "homepage": "https://github.com/davidtimmons/adventure-land-test-helpers#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidtimmons/adventure-land-test-helpers.git"
+  },
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "engines": {
+    "node": ">=6.4.0"
+  },
+  "scripts": {
+    "test": "node tests/index.js"
+  }
+}

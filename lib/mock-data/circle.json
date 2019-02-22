@@ -1,0 +1,41 @@
+{
+    "alpha": 1,
+    "visible": true,
+    "renderable": true,
+    "worldAlpha": 1,
+    "filterArea": null,
+    "fillAlpha": 1,
+    "lineWidth": 1,
+    "nativeLines": false,
+    "lineColor": 62270,
+    "lineAlignment": 0.5,
+    "graphicsData": [
+        {
+            "lineWidth": 1,
+            "lineAlignment": 0.5,
+            "nativeLines": false,
+            "lineColor": 62270,
+            "lineAlpha": 1,
+            "fillAlpha": 1,
+            "holes": [],
+            "shape": {
+                "x": 10,
+                "y": 20,
+                "radius": 5,
+                "type": 2
+            },
+            "type": 2
+        }
+    ],
+    "tint": 16777215,
+    "blendMode": 0,
+    "currentPath": null,
+    "isMask": false,
+    "boundsPadding": 0,
+    "dirty": 1,
+    "fastRectDirty": -1,
+    "clearDirty": 0,
+    "boundsDirty": -1,
+    "cachedSpriteDirty": false,
+    "lineAlpha": 1
+}
